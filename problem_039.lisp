@@ -9,6 +9,7 @@
 ;; Then the right triangles are those that satisfy the Pythagorean
 ;; theorem:
 (defun right-triangle? (a b c)
+  "True if the triangle given by sides A, B and C is a right triangle."
   (= (* c c) (+ (* a a) (* b b))))
 
 ;; A naive but reasonably efficient exhaustive search simply has us
