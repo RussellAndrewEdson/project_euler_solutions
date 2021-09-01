@@ -1,7 +1,7 @@
 ;; Code for Project Euler Problem 18.
 ;;
 ;; Code author: Russell A. Edson
-;; Date last modified: 26/07/2021
+;; Date last modified: 01/09/2021
 
 ;; We are given a triangle of numbers and asked to find the maximum
 ;; path sum. So our first step is to read in the triangle by
@@ -99,6 +99,4 @@ triangle
 
 ;; However, as the problem description also notes, this exhaustive
 ;; searching becomes infeasible for e.g. Problem 67 which has 100 rows.
-;; In such a case we seek a faster optimisation algorithm. (Our binary
-;; representation here is especially suggestive that a genetic
-;; algorithm may be appropriate, perhaps.)
+;; In such a case we seek a faster approach to get the maximum total.
